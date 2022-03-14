@@ -1,0 +1,149 @@
+
+@charset "utf-8";
+html,body { width:100%; height:100%; } 
+
+html,body,div,span,h1,h2,h3,h4,h5,h6,p,
+blockquote,q,abbr,address,cite,code,img,
+ul,ol,li,dl,dt,dd,a,sub,sup,strong,em,
+header,nav,section,article,footer,aside,
+form,fieldset,legend,label,video,
+table,caption,thead,tbody,tfoot,tr,th,td
+ {
+ margin:0px; padding:0px; border:none; } /*border:0; */
+
+header,nav,section,article,footer,aside { display:block; } 
+button,label { cursor:pointer; } 
+table { border-collapse:collapse; } 
+textarea { resize:none; } 
+
+a:link { color:black; text-decoration:none; } 
+a:visited { color:black; text-decoration:none; } 
+a:hover { color:black; text-decoration:none; } 
+a:active { color:black; text-decoration:none; } 
+
+body { overflow-y:scroll; color:black; font-size:1em; font-family:돋움,dotum,굴림,gulim; line-height:1.4; } 
+
+hr,legend,caption { display:none; } 
+ul,ol,li { list-style:none; } 
+q { quotes:none; } 
+address,em { font-style:normal; font-weight:400; } 
+
+.text-center { height:100px; line-height:100px; text-align:center; } 
+.sr-only { display:none; text-indent:-9999px; } 
+.clearfix { *zoom:1; } 
+.clearfix:after { display:block; clear:both; content:''; } 
+
+body { font-family: 'Noto Sans KR',sans-serif; } 
+html, body { width: 100%; height: 100%; } 
+header, nav, section, article, footer, aside { display: block; } 
+#wr { width: 100%; min-width: 1200px; background-color: #efe7e7; } 
+h2 { display: block; font-size: 1.5em; margin-block-start: 0.83em; margin-block-end: 0.83em; margin-inline-start: 0px; margin-inline-end: 0px; font-weight: bold; } 
+div { display: block; } 
+header { position: fixed; left: 0; width: 100%; height: 60px; z-index: 100; background-color: rgba(255,255,255,0.5); } 
+.sr { display: none; text-indent: -9999px; } 
+header>.con>nav { position: absolute; left: 50%; top: 0; margin-left: -400px; width: 1200px; height: 60px; } 
+header, nav, section, article, footer, aside { display: block; } 
+header>.con>nav>.gnb>li { float: left; width: 200px; } 
+ul, ol, li { list-style: none; } 
+li { display: list-item; text-align: -webkit-match-parent; } 
+header>.con>nav>.gnb>li:hover>a, header>.con>nav>.gnb>li>a:focus, header>.con>nav>.gnb>li.on>a { color: #425a73; } 
+header>.con>nav>.gnb>li>a { display: block; height: 60px; line-height: 60px; font-size: 20px; font-weight: 700; text-align: center; transition: all 0.4s; } 
+a:link { color: black; text-decoration: none; } 
+
+/*
+ul { display: block; list-style-type: disc; margin-block-start: 1em; margin-block-end: 1em; margin-inline-start: 0px; margin-inline-end: 0px; padding-inline-start: 40px; } 
+*/
+#home { width: 100%; height: 960px; background-image: url(../image/painter-girl-lying-couch-by-wlop-5k-4l-1920x1080.jpg); background-repeat: no-repeat; background-size: cover; background-position: center center; } 
+.clearfix:after { display: block; clear: both; content: ''; } 
+
+#home>.con2>p { position: absolute; top: 60px; font-weight: 300; letter-spacing: 2px; } 
+p { display: block; margin-block-start: 1em; margin-block-end: 1em; margin-inline-start: 0px; margin-inline-end: 0px; } 
+#home>.con2>p:nth-child(1) { right: 60px; transform: rotate(90deg); } 
+#home>.con2>h1 { position: absolute; left: 60px; bottom: 210px; font-weight: 700; font-size: 135px; color: silver; line-height: 0.9; letter-spacing: -3px; } 
+#home>.con2>h1>.name { position: absolute; left: 300px; bottom: 70px; display: block; width: 390px; height: 194px; text-indent: -9999px; background-image: url(); } 
+element.style { visibility: visible; animation-delay: 100ms; animation-name: fadeIn; } 
+.animated { -webkit-animation-duration: 1s; animation-duration: 1s; -webkit-animation-fill-mode: both; animation-fill-mode: both; } 
+.fadeIn { -webkit-animation-name: fadeIn; animation-name: fadeIn; } 
+.clearfix { *zoom: 1; } 
+style 속성 { visibility: visible; animation-delay: 100ms; animation-name: fadeIn; } 
+#aboutme>.content1-left>h2 { position: absolute; left: 50%; margin-left: -540px; z-index: 10; font-size: 70px; font-weight: 500; color: #D4BDBD; letter-spacing: 1px; } 
+#aboutme>.content1-left>a { position: absolute; top: 121px; left: 50%; margin-left: -540px; z-index: 20; display: block; width: 358px; height: 460px; text-align: justify; } 
+#aboutme>.content1-left>a>p.img { width: 300px; height: 300px; text-indent: -9999px; background-image: url(../image/DDabak.png); } 
+a:-webkit-any-link { cursor: pointer; } 
+#aboutme>.content1-left>a>p.link { width: 358px; height: 30px; line-height: 30px; color: #D4BDBD; font-size: 20px; font-weight: 700; letter-spacing: 2px; } 
+#aboutme>.content1-right>.profile>.prev:hover, #aboutme>.content1-right>.profile>.prev.on { background-position: 0 -42px; } 
+#aboutme>.content1-right>.profile>.prev { position: absolute; top: -42px; right: 50%; margin-right: -303px; background-position: 0 0; } 
+#aboutme>.content1-right>.profile>button { outline: none; border: none; background: none; width: 21px; height: 41px; text-indent: -9999px; background-image: url(../image/sprite.png); } 
+button, label { cursor: pointer; } 
+button { appearance: auto; -webkit-writing-mode: horizontal-tb !important; text-rendering: auto; color: -internal-light-dark(black, white); letter-spacing: normal; word-spacing: normal; line-height: normal; text-transform: none; text-indent: 0px; text-shadow: none; display: inline-block; text-align: center; align-items: flex-start; cursor: default; box-sizing: border-box; background-color: -internal-light-dark(rgb(239, 239, 239), rgb(59, 59, 59)); margin: 0em; padding: 1px 6px; border-width: 2px; border-style: outset; border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133)); border-image: initial; } 
+#aboutme>.content1-right>.profile>.next:hover, #aboutme>.content1-right>.profile>.next.on { background-position: -31px -42px; } 
+#aboutme>.content1-right>.profile>.next { position: absolute; top: -42px; right: 50%; margin-right: -335px; background-position: -31px 0; } 
+#aboutme>.content1-right>.profile>button { outline: none; border: none; background: none; width: 21px; height: 41px; text-indent: -9999px; background-image: url(../image/sprite.png); } 
+#aboutme>.content1-right>.tag { position: absolute; bottom: 0px; left: 0; width: 650px; height: 100px; } 
+#aboutme>.content1-right>.tag>ul>li:first-child, #aboutme>.content1-right>.tag>ul>li:nth-child(6) { margin-left: 0; } 
+#aboutme>.content1-right>.tag>ul>li { float: left; height: 40px; line-height: 26px; margin-left: 15px; margin-bottom: 10px; } 
+#aboutme>.content1-right>.profile>ul>li { position: absolute; left: 0; top: 0; width: 650px; height: 210px; line-height: 2; } 
+#aboutme>.content1-right>.profile>ul>li>p { margin-left: 8pt; font-size: 0.8rem; } 
+#aboutme>.content1-right>.profile>ul>li>p>span { font-size: 10pt; font-weight: bold; margin-right: 10pt; } 
+#aboutme>.content1-right>.profile>ul>li>ol>li { float: left; height: 115px; margin-left: 20px; text-indent: -9999px; } 
+#aboutme>.content1-right>.profile>ul>li>ol>li:nth-child(1) { margin-left: 0; width: 85px; background-image: url(../image/skills_1.png); } 
+#aboutme>.content1-right>.profile>ul>li>ol>li:nth-child(2) { width: 85px; background-image: url(../image/skills_2.png); } 
+#aboutme>.content1-right>.profile>ul>li>ol>li:nth-child(3) { width: 85px; background-image: url(../image/skills_3.png); } 
+#aboutme>.content1-right>.profile>ul>li>ol>li:nth-child(4) { width: 270px; background-image: url(../image/skills_4.png); } 
+#aboutme>.content1-right>.profile>ul>li>h2 { padding-inline-start: 10px; margin-block-start: 0; margin-block-end: 0; } 
+#aboutme>.content1-right>.tag>ul>li>a { display: block; padding: 7px; font-size: 23px; font-weight: 700; letter-spacing: 1px; transition: all 0.4s; } 
+a:-webkit-any-link { cursor: pointer; } 
+#aboutme>.content1-right>.tag>ul>li:hover>a, #aboutme>.content1-right>.tag>ul>li>a:focus, #aboutme>.content1-right>.tag>ul>li.on>a { background-color: rgba(204, 187, 195, 0.712); font-size: 22px; color: #fff; border-radius: 18px; } 
+#aboutme>.content1-right { position: absolute; top: 140px; right: 50%; margin-right: -600px; float: left; width: 650px; height: 430px; } 
+#aboutme>.content1-right>.profile>ul>li:not(:first-child) { display: none; } 
+#aboutme { width: 100%; height: 731px; background: url(../image/introduce_bg.png)
+ no-repeat right; background-size: 10%; /*
+ background-repeat: no-repeat; background-size: cover; background-position: center center; */}
+#aboutme { position: relative; } 
+body { font-family: 'Noto Sans KR', sans-serif; } 
+
+ol { display: block; list-style-type: decimal; margin-block-start: 1em; margin-block-end: 1em; margin-inline-start: 0px; margin-inline-end: 0px; padding-inline-start: 10px; } 
+.clearfix:after { display: block; clear: both; content: ''; } 
+
+#skills>.skill>li:nth-child(1) { margin-left: 0; width: 85px; background-image: url(../image/skills_1.png); } 
+#skills>.skill>li:nth-child(2) { width: 85px; background-image: url(../image/skills_2.png); } 
+#skills>.skill>li:nth-child(3) { width: 85px; background-image: url(../image/skills_3.png); } 
+#skills>.skill>li:nth-child(4) { width: 270px; background-image: url(../image/skills_4.png); } 
+#skills>.skill>li { float: left; height: 115px; margin-left: 20px; text-indent: -9999px; } 
+#portfolio { width: 1200px; height: 800px; margin: 0 auto; } 
+#portfolio>h2 { margin-bottom: 20px; padding-top: 50px; font-size: 70px; font-weight: 500; color: #D4BDBD; letter-spacing: 1px; text-align: center; } 
+#portfolio>.portfolio_bg { display: none; position: fixed; left: 0; top: 0; z-index: 300; width: 100%; height: 100%; background-color: rgba(0,0,0,0.5); } 
+h3 { display: block; font-size: 1.17em; margin-block-start: 1em; margin-block-end: 1em; margin-inline-start: 0px; margin-inline-end: 0px; font-weight: bold; } 
+#portfolio>.portfolio_bg>.portfolio_img { position: fixed; left: 50%; top: 50%; z-index: 310; margin: -400px 0 0 -450px; width: 900px; height: 800px; overflow-y: scroll; } 
+#portfolio>.portfolio_bg>.portfolio_img>.viewClose { display: block; height: 4742px; text-indent: -9999px; background-color: #fff; } 
+#portfolio>.con>.mnu { width: 650px; margin: 0 auto 20px; } 
+#portfolio>.con>.view { position: relative; width: 1200px; height: 540px; } 
+#portfolio>.con>.mnu>li:first-child { margin-left: 0; } 
+#portfolio>.con>.mnu>li { float: left; margin-left: 20px; font-size: 25px; } 
+#portfolio>.con>.mnu>li:first-child:after { content: ''; } 
+#portfolio>.con>.mnu>li:after { content: '|'; display: block; margin: -25px 0 0 -10px; font-size: 12px; color: #ccc; } 
+#portfolio>.con>.mnu>li:hover>a, #portfolio>.con>.mnu>li>a:focus, #portfolio>.con>.mnu>li.on>a { color: #425a73; font-weight: 700; font-size: 19px; background-color: rgba(204, 187, 195, 0.712); border-radius: 5px; } 
+#portfolio>.con>.mnu>li>a { display: block; padding: 0 10px; height: 40px; line-height: 40px; transition: all 0.4s; } 
+a:-webkit-any-link { cursor: pointer; } 
+#portfolio>.con>.view>li { position: absolute; left: 0; top: 0; width: 1040px; height: 380px; padding: 80px; } 
+element.style { display: list-item; } 
+#portfolio>.con>.view>li>h3 { margin-bottom: 20px; font-size: 30px; } 
+#portfolio>.con>.view>li>h3>span { font-size: 22px; } 
+#portfolio>.con>.view>li>p { margin-bottom: 10px; font-size: 18px; line-height: 1.8; } 
+#portfolio>.con>.view>li>.view_img { position: absolute; right: 80px; top: 70px; width: 480px; height: 383px; text-indent: -9999px; background-image: url(../image/1570-1.png); } 
+#portfolio>.con>.view>li:nth-child(2)>.view_img { background-image: url(../image/1570-2.png); } 
+#portfolio>.con>.view>li:nth-child(3)>.view_img { background-image: url(../image/1570-3.png); } 
+#portfolio>.con>.view>li:nth-child(4)>.view_img { background-image: url(../image/1570-4.png); } 
+
+#portfolio>.con>.view>li>a { float: left; display: block; width: 140px; height: 40px; margin: 100px 10px 0 0; line-height: 40px; text-align: center; font-size: 16px; font-size: 500; color: #425a73; background-color: rgba(204, 187, 195, 0.712); border: 1px solid #425a73; border-radius: 5px; transition: all 0.4s; } 
+#portfolio>.con>.view>li>a:hover { color: #fff; background-color: rgba(204, 187, 195, 0.712); } 
+#portfolio>.con>.view>li:not(:first-child) { display: none; } 
+#contact { position: relative; overflow: hidden; width: 100%; height: 178px; } 
+footer { /*
+ width: 100%; height: 100px; */
+ margin-top: 80pt; color: #efe7e7; text-align: center; padding: 100pt 0; background-image: url(../image/painter-girl-lying-couch-by-wlop2.jpg); background-repeat: no-repeat; background-size: cover; background-position: center center; } 
+footer h4 { font-size: 2.5rem; font-weight: bold; color: #efe7e7; } 
+footer p { display: block; margin-block-start: 1em; margin-block-end: 1em; margin-inline-start: 0px; margin-inline-end: 0px; color: #efe7e7; } 
+footer span { color: #efe7e7; margin-left: 5pt; } 
+footer>div p:last-child { font-size: 1rem; } 
+footer p:last-child { font-size: 0.5rem; } 
